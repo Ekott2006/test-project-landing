@@ -1,0 +1,9 @@
+.header-list-item:hover svg {
+    fill: theme(colors.light-blue-500)
+}
+.header-list-item:hover > a {
+    color: theme(colors.light-blue-500)
+}
+.header-list-item:hover > .dropdown-menu {
+    display: grid;
+}
